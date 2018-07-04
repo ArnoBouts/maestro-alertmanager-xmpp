@@ -24,8 +24,6 @@ except getopt.GetoptError:
     print('main.py -d')
     sys.exit(2)
 
-logging.getLogger("schedule").propagate = False
-
 log.info("Starting Alertmanager Xmpp Notification")
 
 app = Flask(__name__)
