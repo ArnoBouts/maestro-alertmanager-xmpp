@@ -2,7 +2,7 @@ pipeline:
   publish:
     image: plugins/docker
     registry: no-cloud.fr
-    repo: no-cloud.fr/maestro-alertmanager-xmpp
+    repo: no-cloud.fr/maestro/alertmanager-xmpp
     tag: latest
     file: Dockerfile
 
